@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffetino</title>
+
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="icon" href="image/favicon.png" type="image/png">
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="wrapper">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="image/logo-mobile.svg" alt="logotype" class="logo-mobile">
+                    <img src="image/logo-des-white.svg" alt="logotype" class="logo-desktop">
+                </a>
+            </div>
+
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="#propos" class="header-link">À propos</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#barista" class="header-link">Barista</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#mixologie" class="header-link">Mixologie</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#contact" class="header-link">Contact</a>
+                    </li>
+                    <li class="header-item header-item__shop">
+                        <a href="#" class="header-link">Shop</a>
+                    </li>
+                </ul>
+
+                <select name="select" class="select-language">
+                    <option value="value1">FR</option>
+                    <option value="value2" selected>FR</option>
+                    <option value="value3">FR</option>
+                </select>
+            </nav>
+
+            <div class="burger" id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-bg">
+                <video src="image/hero.mp4" autoplay muted loop></video>
+            </div>
+            <div class="wrapper">
+                <img class="hero-img" src="image/big-logo.svg" alt="logotype">
+                <h1 class="hero-title header-title">les baristas qui se bougent</h1>
+                <p class="hero-text">Découvrir nos prestations :</p>
+                <div class="hero-box">
+                    <a href="#" class="white-link">
+                        Barista évènementiel
+                    </a>
+                    <a href="#" class="transparent-link">
+                        Mixologie / Cocktail
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- À propos -->
+        <section class="propos universal" id="propos">
+            <div class="wrapper">
+                <div class="universal-left">
+                    <span class="universal-sub">À propos</span>
+                    <h2 class="universal-title title">L'Histoire d'un espresso authentique: de Nonno Sebastiano à Luca,
+                        une tradition de café italien</h2>
+                    <div class="universal-text">
+                        Notre histoire commence en 1959 avec Nonno Sebastiano, qui, arrivé en Suisse, défendait
+                        ardemment l'art de l'espresso italien. Nonna Maria, quant à elle, ne se séparait jamais de sa
+                        vieille Moka Bialetti, symbole de son amour pour le café. Luca, lors de ses voyages,
+                        transportait toujours sa petite cafetière, partageant des moments de convivialité, comme avec
+                        Edmundo en Équateur. À travers chaque tasse, nous perpétuons une tradition familiale et une
+                        passion pour le café authentique. Notre quête de qualité et d'authenticité se reflète dans
+                        chaque espresso que nous servons, témoignant de notre attachement à une culture et une histoire
+                        uniques.
+                    </div>
+                </div>
+                <div class="universal-right">
+                    <picture>
+                        <source srcset="image/universal-img1-mob.webp" media="(max-width: 576px)" type="image/webp">
+                        <source srcset="image/universal-img1.webp" media="(min-width: 576px)" type="image/webp">
+
+                        <source srcset="image/universal-img1-mob.jpg" media="(max-width: 576px)" type="image/jpeg">
+                        <source srcset="image/universal-img1.jpg" media="(min-width: 576px)" type="image/jpeg">
+
+                        <img src="image/universal-img1.jpg" alt="image"  class="parallax-image">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRESTATION BARISTA -->
+        <section class="prestation prestation-barista" id="barista">
+            <div class="wrapper">
+                <div class="prestation-left">
+                    <span class="prestation-sub">PRESTATION BARISTA</span>
+                    <h2 class="prestation-title title">L'Art du Café par notre Barista: une expérience italienne unique
+                        pour vos événements</h2>
+                    <div class="prestation-text">
+                        Laissez notre barista apporter sa touche personnelle à chaque "caffè" servi, tandis que notre élégante machine à café attire les amateurs de café. Nous élevons le street bar en créant une ambiance dolce vita qui ravira vos invités, peu importe l'endroit. Ajoutez de la valeur à votre événement avec notre triporteur Vespa, notre barista passionné, l'ambiance chaleureuse et une offre originale de café et pâtisseries. Adapté à tout type d'événement, découvrez aussi notre atelier ludique sur l'espresso italiano.
+                    </div>
+
+                    <a href="#" class="prestation-link black-link">Nous contacter</a>
+                </div>
+                <div class="prestation-right">
+                    <div class="prestation-row">
+                        <div class="prestation-item">
+                            <img src="image/burista1.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Salon & Congrès</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+
+                        <div class="prestation-item">
+                            <img src="image/burista2.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Évènement d’entreprise</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="prestation-row prestation-row2">
+                        <div class="prestation-item">
+                            <img src="image/burista3.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Manifestation privée</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+
+                        <div class="prestation-item">
+                            <img src="image/burista4.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Manifestation publique</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="prestation-link black-link">Nous contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Automatic slider -->
+        <div class="automatic-slider">
+            <div class="automatic-swiper swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider1.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider1.jpg" alt="image">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider2.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider2.jpg" alt="image">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider3.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider3.jpg" alt="image">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider4.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider4.jpg" alt="image">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider1.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider1.jpg" alt="image">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider2.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider2.jpg" alt="image">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="image/automatic-slider3.webp" type="image/webp">
+                            <img width="462" height="446" src="image/automatic-slider3.jpg" alt="image">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRESTATION MIXOLOGIE & COCKTAIL -->
+        <section class="prestation prestation-mixologie" id="mixologie">
+            <div class="wrapper">
+                <div class="prestation-left">
+                    <span class="prestation-sub">PRESTATION MIXOLOGIE & COCKTAIL</span>
+                    <h2 class="prestation-title title">Élixir et Création:
+                        L'Art de la Mixologie et des Cocktails</h2>
+                    <div class="prestation-text">
+                        Lorem ipsum dolor sit amet consectetur. Mi elementum orci faucibus massa nisi tempus vel sit
+                        urna. Consequat laoreet nulla eget rutrum massa mauris commodo mi sit. Eros cursus aliquam dolor
+                        nisl quisque adipiscing. Elit faucibus scelerisque risus a fermentum nisi vitae eu habitant.
+                    </div>
+
+                    <a href="#" class="prestation-link black-link">Nous contacter</a>
+                </div>
+                <div class="prestation-right prestation-right2">
+                    <div class="prestation-row">
+                        <div class="prestation-item">
+                            <img src="image/COCKTAIL1.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Salon & Congrès</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+
+                        <div class="prestation-item">
+                            <img src="image/COCKTAIL2.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Évènement d’entreprise</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <div class="prestation-row">
+                        <div class="prestation-item">
+                            <img src="image/COCKTAIL3.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Manifestation privée</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+
+                        <div class="prestation-item">
+                            <img src="image/COCKTAIL4.svg" class="prestation-item-img" alt="icon">
+                            <h3 class="prestation-item-title">Manifestation publique</h3>
+                            <p class="prestation-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="prestation-link black-link">Nous contacter</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner -->
+        <div class="banner">
+            <picture>
+                <source srcset="image/banner-mobile.webp" media="(max-width: 576px)" type="image/webp">
+                <source srcset="image/banner.webp" media="(min-width: 576px)" type="image/webp">
+
+                <source srcset="image/banner-mobile.jpg" media="(max-width: 576px)" type="image/jpeg">
+                <source srcset="image/banner.jpg" media="(min-width: 576px)" type="image/jpeg">
+
+                <img src="image/banner.jpg" alt="image">
+            </picture>
+        </div>
+
+        <!-- Service catering -->
+        <section class="catering universal">
+            <div class="wrapper">
+                <div class="universal-left">
+                    <span class="universal-sub">Service catering</span>
+                    <h2 class="universal-title title">Élégance Culinaire: Le Service de Catering</h2>
+                    <div class="universal-text">
+                        Lorem ipsum dolor sit amet consectetur. Ut eu tincidunt consectetur eget semper egestas.
+                        Pellentesque diam integer sit non. Vitae tristique orci eu odio. Non pulvinar massa dolor turpis
+                        amet neque tristique. Elementum amet ut faucibus enim ac accumsan tellus sed. Lectus duis sem
+                        praesent viverra sagittis cras ullamcorper volutpat at. Vel varius porttitor non pellentesque.
+                        <br>
+                        <br>
+                       
+                        Suspendisse dignissim diam tellus eu quam ac. Quis non diam et urna nulla sit suspendisse dui.
+                        Penatibus dui in id tincidunt sapien. Mi neque lacus vitae dui justo tellus diam massa
+                        pellentesque. Felis vel nullam iaculis imperdiet arcu commodo. Tristique ullamcorper morbi
+                        viverra amet vitae. Porttitor aliquam.
+                    </div>
+                </div>
+                <div class="universal-right">
+                    <picture>
+                        <source srcset="image/catering-iimg-mob.webp" media="(max-width: 576px)" type="image/webp">
+                        <source srcset="image/catering-img.webp" media="(min-width: 576px)" type="image/webp">
+
+                        <source srcset="image/catering-iimg-mob.jpg" media="(max-width: 576px)" type="image/jpeg">
+                        <source srcset="image/catering-img.jpg" media="(min-width: 576px)" type="image/jpeg">
+
+                        <img src="image/catering-img.jpg" alt="image">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- Salon & congrès -->
+        <section class="salon">
+            <div class="wrapper">
+                <div class="salon-left">
+                    <div class="controls">
+                        <p>EVENT</p>
+                        <div class="control active" data-index="0">1</div>
+                        <div class="control" data-index="1">2</div>
+                        <div class="control" data-index="2">3</div>
+                        <div class="control" data-index="3">4</div>
+                        <div class="control" data-index="4">5</div>
+                        <div class="control" data-index="5">6</div>
+                        <button class="custom-next">
+                            <img src="image/arrow1.svg" alt="next">
+                        </button>
+                        <button class="custom-prev">
+                            <img src="image/arrow2.svg" alt="prev">
+                        </button>
+                    </div>
+
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(max-width: 576px)"
+                                        type="image/webp">
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(min-width: 576px)"
+                                        type="image/webp">
+
+                                    <source srcset="image/vertical-slider1.jpg" media="(max-width: 576px)"
+                                        type="image/jpeg">
+                                    <source srcset="image/vertical-slider1.jpg" media="(min-width: 576px)"
+                                        type="image/jpeg">
+
+                                    <img src="image/vertical-slider1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(max-width: 576px)"
+                                        type="image/webp">
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(min-width: 576px)"
+                                        type="image/webp">
+
+                                    <source srcset="image/vertical-slider1.jpg" media="(max-width: 576px)"
+                                        type="image/jpeg">
+                                    <source srcset="image/vertical-slider1.jpg" media="(min-width: 576px)"
+                                        type="image/jpeg">
+
+                                    <img src="image/vertical-slider1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(max-width: 576px)"
+                                        type="image/webp">
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(min-width: 576px)"
+                                        type="image/webp">
+
+                                    <source srcset="image/vertical-slider1.jpg" media="(max-width: 576px)"
+                                        type="image/jpeg">
+                                    <source srcset="image/vertical-slider1.jpg" media="(min-width: 576px)"
+                                        type="image/jpeg">
+
+                                    <img src="image/vertical-slider1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(max-width: 576px)"
+                                        type="image/webp">
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(min-width: 576px)"
+                                        type="image/webp">
+
+                                    <source srcset="image/vertical-slider1.jpg" media="(max-width: 576px)"
+                                        type="image/jpeg">
+                                    <source srcset="image/vertical-slider1.jpg" media="(min-width: 576px)"
+                                        type="image/jpeg">
+
+                                    <img src="image/vertical-slider1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(max-width: 576px)"
+                                        type="image/webp">
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(min-width: 576px)"
+                                        type="image/webp">
+
+                                    <source srcset="image/vertical-slider1.jpg" media="(max-width: 576px)"
+                                        type="image/jpeg">
+                                    <source srcset="image/vertical-slider1.jpg" media="(min-width: 576px)"
+                                        type="image/jpeg">
+
+                                    <img src="image/vertical-slider1.jpg" alt="image">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(max-width: 576px)"
+                                        type="image/webp">
+                                    <source srcset="image/vertical-slider-mobile1.webp" media="(min-width: 576px)"
+                                        type="image/webp">
+
+                                    <source srcset="image/vertical-slider1.jpg" media="(max-width: 576px)"
+                                        type="image/jpeg">
+                                    <source srcset="image/vertical-slider1.jpg" media="(min-width: 576px)"
+                                        type="image/jpeg">
+
+                                    <img src="image/vertical-slider1.jpg" alt="image">
+                                </picture>
+                            </div>
+                          
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div class="salon-right">
+                    <span class="salon-sub">Salon & congrès</span>
+                    <h2 class="salon-title">Nom de l’évènement</h2>
+                    <p class="salon-text">Lorem ipsum dolor sit amet consectetur. Consequat venenatis vitae in laoreet
+                        ac lectus viverra. Quis mattis nam at nisl. Purus adipiscing faucibus pellentesque ultricies.
+                        Imperdiet duis facilisis leo nec magna. Duis augue amet porta a cras leo. Lacinia adipiscing
+                        phasellus est duis egestas aliquam hendrerit lacinia. Tortor egestas tincidunt in consequat
+                        vitae tempor ac. Consequat imperdiet vel laoreet tempus integer.
+                        <br>
+                        <br>
+                        Scelerisque nunc tincidunt vel faucibus. Et cursus netus et interdum massa. Sit tellus fames
+                        pulvinar in sed faucibus.
+                        Orci elementum fermentum a et pellentesque facilisis non. Curabitur eget ultrices aliquam libero
+                        eget libero. Cras aliquet non blandit sem fringilla placerat eget massa amet. Nibh urna ac
+                        turpis consectetur consectetur.</p>
+                    <div class="salon-img">
+                        <picture>
+                            <source srcset="image/slider-img.webp" type="image/webp">
+                            <img width="401" height="222" src="image/slider-img.jpg" alt="image">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <div class="contact-header">
+                    <span class="contact-sub">Contact</span>
+                    <h2 class="contact-title">Nous contacter</h2>
+                    <div class="contact-text">
+                        Vous pouvez nous contacter via le formulaire ou par téléphone <a href="tel:+41796118402">+41 79
+                            611 84 02</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="contact-form-group">
+                        <div class="contact-form-col">
+                            <label for="type-prestation">Type de prestation recherché*</label>
+                            <select id="type-prestation" required>
+                                <option value="">Sélectionner</option>
+                                <option value="service1">Service 1</option>
+                                <option value="service2">Service 2</option>
+                                <option value="service3">Service 3</option>
+                            </select>
+                        </div>
+                        <div class="contact-form-col">
+                            <label for="type-evenement">Type d’évènement*</label>
+                            <select id="type-evenement" required>
+                                <option value="">Sélectionner</option>
+                                <option value="event1">Événement 1</option>
+                                <option value="event2">Événement 2</option>
+                                <option value="event3">Événement 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="contact-form-group">
+                        <div class="contact-form-col">
+                            <label for="nom">Nom*</label>
+                            <input type="text" id="nom" required placeholder="Nom">
+                        </div>
+
+                        <div class="contact-form-col">
+                            <label for="prenom">Prénom*</label>
+                            <input type="text" id="prenom" required placeholder="Prénom">
+                        </div>
+                    </div>
+                    <div class="contact-form-group">
+                        <div class="contact-form-col">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" required placeholder="email@exemple.ch">
+                        </div>
+                        <div class="contact-form-col">
+                            <label for="telephone">Téléphone*</label>
+                            <input type="tel" id="telephone" required placeholder="Téléphone">
+                        </div>
+                    </div>
+                    <div class="contact-form-group contact-form-group-m">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="contact-form-group recaptcha">
+                        <img src="image/recaptcha.png" alt="img">
+                    </div>
+                    <div class="contact-form-group contact-form-group2">
+                        <input type="checkbox" id="privacy" required>
+                        <label for="privacy">En soumettant ce formulaire, j'accepte que les informations saisies soient
+                            utilisées dans le cadre de la demande formulée et de la relation commerciale qui peut en
+                            découler.</label>
+                    </div>
+                    <button type="submit" class="contact-form-btn black-link">Envoyer ma demande</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-left">
+                <div class="footer-row footer-row2">
+                    <img src="image/big-logo.svg" alt="logotype">
+                    <div class="footer-row-contact">
+                        T. <a href="tel:+41796118402">+41 79 611 84 02</a> <a
+                            href="mailto:info@caffettino.ch">info@caffettino.ch</a> Quai des Forces Motrices 8CH-1204
+                        Genève
+                    </div>
+                </div>
+                <div class="footer-row">
+                    <h3>Navigation</h3>
+                    <nav class="footer-list">
+                        <ul>
+                            <li>
+                                <a href="#propos">À propos</a>
+                            </li>
+                            <li>
+                                <a href="#barista">Barista</a>
+                            </li>
+                            <li>
+                                <a href="#mixologie">Mixologie</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-row">
+                    <h3>Partenaires</h3>
+                    <ul class="footer-list2">
+                        <li>
+                            <a href="#">SCAE</a>
+                        </li>
+                        <li>
+                            <a href="#">IIAC Assaggiatori caffè</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-list3">
+                    <li>
+                        <a href="#">Politique de confidentialité</a>
+                    </li>
+                    <li>
+                        <a href="#">Mentions légales</a>
+                    </li>
+                    <li>
+                        <a href="#">Cookies</a>
+                    </li>
+                </ul>
+                <div class="footer-social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="image/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/linkedin.svg" alt="linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="image/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>©2024 made by <a href="#">buxumlunic</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <div class="overlay" id="overlay"></div>
+    <div class="menu" id="menu">
+        <div class="menu-header">
+            <a href="index.html">
+                <img src="image/logo-mobile.svg" alt="logotype">
+            </a>
+        </div>
+        <div class="menu-main">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#propos" class="menu-link">À propos</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#barista" class="menu-link">Barista</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#mixologie" class="menu-link">Mixologie</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact" class="menu-link">Contact</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Shop</a>
+                </li>
+            </ul>
+
+            <div class="menu-select">
+                <select name="select" class="menu-language">
+                    <option value="value1">FR</option>
+                    <option value="value2" selected>FR</option>
+                    <option value="value3">FR</option>
+                </select>
+
+                <a href="tel:+41796118402">+41 79 611 84 02</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/jquery-3.7.0.min.js"></script>
+    <script src="script/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="script/main.js"></script>
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>
